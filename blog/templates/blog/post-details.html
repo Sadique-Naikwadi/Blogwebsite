@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    
+<h1 class="display-6">{{ post.title }}</h1>
+<p class="text-body-secondary"><em>{{ post.publish }}</em></p>
+<p class="lead">{{ post.body | linebreaks }}</p>
+
+
+{% endblock content %}
+    

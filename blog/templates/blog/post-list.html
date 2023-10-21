@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+
+        <a class=" link-underline link-underline-opacity-0" href="{% url 'blog:post-details' post.slug %}"><h3 class="display-6">{{ post.title }}</h3></a>
+        <p class="text-body-secondary"><em>{{ post.publish }}</em></p>
+        <p class="lead">{{ post.body | truncatewords:60 | linebreaks }}</p>
+        
+
+    {% endfor %}
+{% endblock content %}
+    
