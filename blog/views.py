@@ -5,7 +5,8 @@ from .models import Post
 
 def post_list(request):
     posts = Post.objects.filter(status='PB')
-    context = {'posts': posts}
+    upcoming = Post.objects.filter(status='DF')[:3]
+    context = {'posts': posts, 'upcoming': upcoming}
     return render(request, 'blog/post-list.html', context)
 
 def post_details(request, slug):
