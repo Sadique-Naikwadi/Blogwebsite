@@ -14,7 +14,7 @@
                     <h5 class="card-title">{{ post.title }}</h5>
                     <p class="text-body-secondary"><em>{{ post.publish }}</em></p>
                     <p class="card-text">{{ post.body |truncatewords:30|linebreaks }}</p>
-                    <a href="{% url 'blog:post-details' post.slug %}" class="btn btn-primary">Read More</a>
+                    <a href="{{ post.get_absolute_url }}" class="btn btn-primary">Read More</a>
                 </div>
             </div>
             {% endfor %}
@@ -44,5 +44,6 @@
         
 
     {% endfor %} -->
+    {% include 'pagination.html' %}
 {% endblock content %}
     
