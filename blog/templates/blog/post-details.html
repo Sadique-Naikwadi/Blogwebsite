@@ -6,6 +6,9 @@
 <h1 class="display-6">{{ post.title }}</h1>
 <p class="text-body-secondary"><em>{{ post.publish }}</em></p>
 <p class="lead">{{ post.body | linebreaks }}</p>
+<a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="{% url 'blog:share-post' post.id %}">
+    <strong>Share the Post</strong>
+  </a>
 
 
 {% endblock content %}
