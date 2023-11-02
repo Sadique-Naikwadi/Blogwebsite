@@ -8,8 +8,22 @@
 <p class="lead">{{ post.body | linebreaks }}</p>
 <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="{% url 'blog:share-post' post.id %}">
     <strong>Share the Post</strong>
-  </a>
+</a>
+
+{% with comments.count as total_comments %}
+  <h5>Total Comments({{ total_comments }})</h5>
+{% endwith %}
 
 
+{% for comment in comments %}
+
+  <p class="text-muted fw-bold small"><em>Comment by {{ comment.name }} at {{ comment.created_on }}</em></p>
+  <p class="lead">{{ comment.body | linebreaks }}</p>
+{% empty %}
+  <p>There are no comments yet.</p>
+{% endfor %}
+  
+
+{% include 'blog/comment_form.html' %}
 {% endblock content %}
     

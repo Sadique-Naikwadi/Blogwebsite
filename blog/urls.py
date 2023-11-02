@@ -6,4 +6,5 @@ urlpatterns = [
     path('', views.post_list, name='post-list'),
     path('post-details/<slug:slug>/', views.post_details, name='post-details'),
     path('share-post/<str:pk>', views.share_post, name='share-post'),
+    path('create-comment/<str:pk>/', views.create_comment, name='create-comment'),
 ]

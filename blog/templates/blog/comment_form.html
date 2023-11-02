@@ -1,0 +1,17 @@
+
+{% block content %}
+<h4>Add New Comment</h4>
+    <form action="{% url 'blog:create-comment' post.id %}" method="post">
+        <div class="mb-3">
+            
+            {% csrf_token %}
+            {% for field in form %}
+            <label class="form-label">{{ field.label }}</label>
+            {{ field }}
+            {% endfor %}
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Add Comment">
+    </form>
+{% endblock content %}
+    

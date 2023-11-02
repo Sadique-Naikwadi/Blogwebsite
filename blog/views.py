@@ -1,9 +1,10 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import Paginator
 from .models import Post
-from .forms import SharePostForm
+from .forms import SharePostForm, CommentForm
 from django.core.mail import send_mail
 from django.conf import settings
+from django.db import IntegrityError
 
 # Create your views here.
 
@@ -31,7 +32,9 @@ def post_list(request):
 def post_details(request, slug):
     # post = Post.objects.get(slug=slug)
     post = get_object_or_404(Post, slug=slug)
-    context = {'post': post}
+    form =  CommentForm()
+    comments = post.comments.filter(active=True)
+    context = {'post': post, 'form': form, 'comments': comments}
     return render(request, 'blog/post-details.html', context)
 
 
@@ -59,5 +62,24 @@ def share_post(request, pk):
 
     context = {'form': form}
     return render(request, 'blog/share-post.html', context)
+
+
+def create_comment(request, pk):
+    post = get_object_or_404(Post, id=pk)
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            new_comment = form.save(commit=False)
+            try:
+                new_comment.post = post
+                new_comment.save()
+            except IntegrityError:
+                print(' You have already given the comment.')
+
+            return redirect('blog:post-details', slug=post.slug)
+        else:
+            print('Error in saving comment.')
+        
+    
 
 

@@ -1,4 +1,5 @@
 from django import forms
+from .models import Comment
 
 class SharePostForm(forms.Form):
     Name = forms.CharField(max_length=25, required=True)
@@ -16,4 +17,19 @@ class SharePostForm(forms.Form):
 
 
 
+class CommentForm(forms.ModelForm):
     
+    class Meta:
+        model = Comment
+        fields = ['name', 'email', 'body']
+
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        for key, obj in self.fields.items():
+            obj.widget.attrs['class'] = 'form-control'
+        
+    
+
+        
