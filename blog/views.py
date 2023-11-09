@@ -1,10 +1,11 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import Paginator
 from .models import Post
-from .forms import SharePostForm, CommentForm
+from .forms import SharePostForm, CommentForm, CustomAuthenticationForm, CustomUserCreationForm
 from django.core.mail import send_mail
 from django.conf import settings
 from django.db import IntegrityError
+from django.contrib.auth import authenticate, login, logout
 
 # Create your views here.
 
@@ -81,5 +82,48 @@ def create_comment(request, pk):
             print('Error in saving comment.')
         
     
+def user_login(request):
+    
+    if request.method == 'POST':
+        form = CustomAuthenticationForm(request, data=request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+            
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request,user)
+                return redirect('blog:post-list')
+            
+    else:
+        form = CustomAuthenticationForm()
+            
+    context = {'form': form}
+    return render(request, 'blog/user_login.html', context)
+
+
+def user_logout(request):
+
+    logout(request)
+    return redirect('blog:post-list')
+
+
+def create_user(request):
+    
+    if request.method == 'POST':
+        print('enter in post')
+        form = CustomUserCreationForm(data=request.POST)
+        if form.is_valid():
+            form.save()
+            print('save data')
+            return redirect('blog:user-login')
+    else:
+        form = CustomUserCreationForm()
+
+    context = {'form': form}
+    return render(request, 'blog/create_user.html', context)
+
+
+
 
 

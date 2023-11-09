@@ -3,6 +3,7 @@ from django.db.models import UniqueConstraint
 from django.utils import timezone
 from django.utils.text import slugify
 from django.urls import reverse
+from django.contrib.auth.models import User
 import uuid
 
 # Create your models here.
@@ -18,6 +19,7 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=2, choices=STATUS_OF_POST, default='DF')
+    owner = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     id = models.UUIDField(default=uuid.uuid4, primary_key=True, unique=True, editable=False, null=False)
 
     class Meta:
