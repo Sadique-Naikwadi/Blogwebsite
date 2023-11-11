@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from django.conf import settings
 from django.db import IntegrityError
 from django.contrib.auth import authenticate, login, logout
+from .forms import AddPost
 
 # Create your views here.
 
@@ -38,6 +39,12 @@ def post_details(request, slug):
     context = {'post': post, 'form': form, 'comments': comments}
     return render(request, 'blog/post-details.html', context)
 
+def view_myblog(request):
+    owner = request.user
+    posts = Post.objects.filter(owner=owner)
+    context = {'posts': posts}
+    return render(request, 'blog/view-myblog.html', context)
+
 
 def share_post(request, pk):
     form = SharePostForm()
@@ -63,6 +70,22 @@ def share_post(request, pk):
 
     context = {'form': form}
     return render(request, 'blog/share-post.html', context)
+
+def create_post(request):
+    owner = request.user
+    if request.method == 'POST':
+        form = AddPost(request.POST)
+        if form.is_valid():
+            new_post = form.save(commit=False)
+            new_post.owner = owner
+            new_post.save()
+            return redirect('blog:view-myblog')
+    else:
+
+        form = AddPost()
+    context = {'form': form}
+    return render(request, 'blog/create-post.html', context)
+
 
 
 def create_comment(request, pk):

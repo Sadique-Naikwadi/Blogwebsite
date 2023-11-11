@@ -12,7 +12,7 @@
                 <!-- <img src="blog-post-1.jpg" class="card-img-top" alt="Blog Post 1"> -->
                 <div class="card-body">
                     <h5 class="card-title">{{ post.title }}</h5>
-                    <p class="text-body-secondary"><em>{{ post.publish }}</em> by {{ post.owner.username }}</p>
+                    <p class="text-muted small"><em>{{ post.publish }}</em> by {{ post.owner.username }}</p>
                     <p class="card-text">{{ post.body |truncatewords:30|linebreaks }}</p>
                     <a href="{{ post.get_absolute_url }}" class="btn btn-primary">Read More</a>
                 </div>

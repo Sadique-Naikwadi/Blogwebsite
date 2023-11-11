@@ -2,6 +2,7 @@ from django import forms
 from .models import Comment
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
+from .models import Post
 
 class SharePostForm(forms.Form):
     Name = forms.CharField(max_length=25, required=True)
@@ -59,5 +60,20 @@ class CustomUserCreationForm(UserCreationForm):
         
     
 
+class AddPost(forms.ModelForm):
+
+    class Meta:
+        model = Post
+        fields = ['title', 'body']
+
     
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        for key, obj in self.fields.items():
+            obj.widget.attrs['class'] = 'form-control'
+        
+    
+
+       
           
