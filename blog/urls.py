@@ -1,4 +1,5 @@
 from django.urls import path, include
+from .feeds import LatestPostFeed
 from .import views
 app_name = 'blog'
 
@@ -12,4 +13,5 @@ urlpatterns = [
     path('create-user/', views.create_user, name='create-user'),
     path('view-myblog/', views.view_myblog, name='view-myblog'),
     path('create-post/', views.create_post, name='create-post'),
+    path('feed/', LatestPostFeed(), name='post-feed'),
 ]
