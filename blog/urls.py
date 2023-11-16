@@ -14,4 +14,5 @@ urlpatterns = [
     path('view-myblog/', views.view_myblog, name='view-myblog'),
     path('create-post/', views.create_post, name='create-post'),
     path('feed/', LatestPostFeed(), name='post-feed'),
+    path('search/', views.do_search, name='do-search'),
 ]

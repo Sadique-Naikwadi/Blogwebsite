@@ -20,8 +20,10 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <div class="d-flex align-items-center">   
-            <input class="form-control search-box me-2" type="text" placeholder="Search">
+            <div class="d-flex align-items-center">
+            <form action="{% url 'blog:do-search' %}">   
+                <input class="form-control search-box me-2" type="search" name="query" placeholder="Search">
+            </form>
             {% if request.user.is_authenticated %}
             <a href="{% url 'blog:user-logout' %}"><button class="btn btn-primary login-btn me-2">Logout</button></a>
             {% else %}

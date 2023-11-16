@@ -1,0 +1,1541 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-19T07:52:45.016Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "bbac2781-d83a-4f7e-9719-68c86795feaf",
+    "object_repr": "Phalestine War",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-19T08:11:40.061Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "bbac2781-d83a-4f7e-9719-68c86795feaf",
+    "object_repr": "Phalestine War",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-19T08:12:52.736Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "03cc2a48-7891-4602-8024-3c7efd2c69ea",
+    "object_repr": "Palestine War",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-20T02:08:19.822Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59bb9c65-b862-452b-9c0e-9c07802dc5ac",
+    "object_repr": "How Stuff Works",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-20T02:09:38.079Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4ae385cb-6207-4dc9-8e71-93af886377c6",
+    "object_repr": "How to get over friendship breakup",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-20T02:11:03.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9203ff0c-cc57-4196-aa86-f31ccf17f598",
+    "object_repr": "The Confident Teacher",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-20T03:53:50.154Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9203ff0c-cc57-4196-aa86-f31ccf17f598",
+    "object_repr": "The Confident Teacher",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-20T03:53:57.211Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9203ff0c-cc57-4196-aa86-f31ccf17f598",
+    "object_repr": "The Confident Teacher",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-20T03:54:19.426Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4ae385cb-6207-4dc9-8e71-93af886377c6",
+    "object_repr": "How to get over friendship breakup",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-20T03:54:31.754Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59bb9c65-b862-452b-9c0e-9c07802dc5ac",
+    "object_repr": "How Stuff Works",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-10-20T03:56:33.687Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "03cc2a48-7891-4602-8024-3c7efd2c69ea",
+    "object_repr": "Palestine War",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-10-20T03:56:53.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59bb9c65-b862-452b-9c0e-9c07802dc5ac",
+    "object_repr": "How Stuff Works",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-10-25T05:51:56.786Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7681b12f-d311-4fb1-ad15-fb56c9080de1",
+    "object_repr": "Great Learning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-10-25T05:53:13.811Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7b8542eb-2c78-43af-8ad1-efc58eeb5434",
+    "object_repr": "The Indian Education System",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-10-25T05:55:21.255Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "f0fa8e0b-23fd-45c3-b9f3-4bd55ad2e80a",
+    "object_repr": "The Knowledge Review",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-10-25T05:59:15.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "94efd2f2-9a8e-4b8d-8805-da2771a7e79b",
+    "object_repr": "Why Swimming is Great For Adults",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-10-25T06:01:25.433Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2bbb4c71-9227-4e47-85c5-3063069470d0",
+    "object_repr": "Healthy Eating",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-10-25T06:03:36.856Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "b899df3f-f263-497e-bb57-60a33e474260",
+    "object_repr": "Yoga for Body",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-10-25T06:06:14.831Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "d26e70f6-d983-4d1b-9901-7728c62170de",
+    "object_repr": "How to Create Your Power Hours",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-10-25T06:11:46.561Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7d42c3cc-4129-4c41-be02-b15b22fc3f8f",
+    "object_repr": "How to Remember What You Study",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-10-25T06:15:25.517Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "db287bd4-852c-4eb4-862d-89a914af272f",
+    "object_repr": "Hackers take side between Israel and Hamas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-10-25T06:18:04.663Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "0607f792-0bb8-447c-abf8-0b92a2855135",
+    "object_repr": "The Israel-Hamas War",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-10-25T06:33:25.053Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "d26e70f6-d983-4d1b-9901-7728c62170de",
+    "object_repr": "How to Create Your Power Hours",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-11-07T06:59:24.529Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Dennis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-11-07T06:59:48.653Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Sarah",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-11-07T07:00:23.603Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Sarah",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-11-07T07:01:05.266Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Dennis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-11-07T07:01:46.651Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "sadique",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-11-07T07:02:21.642Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "0607f792-0bb8-447c-abf8-0b92a2855135",
+    "object_repr": "The Israel-Hamas War",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-11-07T07:02:33.632Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "db287bd4-852c-4eb4-862d-89a914af272f",
+    "object_repr": "Hackers take side between Israel and Hamas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-11-07T07:02:46.559Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7d42c3cc-4129-4c41-be02-b15b22fc3f8f",
+    "object_repr": "How to Remember What You Study",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-11-07T07:03:01.959Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "d26e70f6-d983-4d1b-9901-7728c62170de",
+    "object_repr": "How to Create Your Power Hours",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-11-07T07:03:15.934Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "b899df3f-f263-497e-bb57-60a33e474260",
+    "object_repr": "Yoga for Body",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-11-07T07:03:29.018Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2bbb4c71-9227-4e47-85c5-3063069470d0",
+    "object_repr": "Healthy Eating",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-11-07T07:03:42.285Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "94efd2f2-9a8e-4b8d-8805-da2771a7e79b",
+    "object_repr": "Why Swimming is Great For Adults",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-11-07T07:04:03.246Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "f0fa8e0b-23fd-45c3-b9f3-4bd55ad2e80a",
+    "object_repr": "The Knowledge Review",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-11-07T07:04:35.473Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "antonio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-11-07T07:05:31.201Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "antonio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-11-07T07:06:00.244Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7b8542eb-2c78-43af-8ad1-efc58eeb5434",
+    "object_repr": "The Indian Education System",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-11-07T07:06:13.672Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7681b12f-d311-4fb1-ad15-fb56c9080de1",
+    "object_repr": "Great Learning",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-11-07T07:06:24.753Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9203ff0c-cc57-4196-aa86-f31ccf17f598",
+    "object_repr": "The Confident Teacher",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-11-07T07:06:38.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4ae385cb-6207-4dc9-8e71-93af886377c6",
+    "object_repr": "How to get over friendship breakup",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-11-07T07:06:53.789Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59bb9c65-b862-452b-9c0e-9c07802dc5ac",
+    "object_repr": "How Stuff Works",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-11-07T07:07:08.215Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "03cc2a48-7891-4602-8024-3c7efd2c69ea",
+    "object_repr": "Palestine War",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-11-11T05:17:54.149Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Ethnic_cleaning",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-11-11T05:18:08.968Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Ethnic",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-11-11T05:52:34.260Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Ethnic cleaning",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-11-11T05:52:34.268Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Genocide",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-11-11T05:52:34.291Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "War",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-11-12T08:30:33.338Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-11-13T07:00:14.649Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "127.0.0.1:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-11-13T07:14:57.102Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$512taO0yIWRbWll0pa6amB$D7hxdPZG8kv7esT2T1jhYyaK4CZBUr99ZwPx8e4O/L4=",
+    "last_login": "2023-11-13T07:14:39.723Z",
+    "is_superuser": true,
+    "username": "sadique",
+    "first_name": "Sadique",
+    "last_name": "Naikwadi",
+    "email": "sadique.sn@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-19T07:25:19Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$A5gn2XH6yxuikSfSGC9D05$FvoIqJoJkyMLTK8gC9a6kxcxcU4i2taN5IsMEQWV9/0=",
+    "last_login": "2023-11-09T06:03:28.232Z",
+    "is_superuser": false,
+    "username": "Dennis",
+    "first_name": "Dennis",
+    "last_name": "Ivnov",
+    "email": "mail.to.dennis570@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-07T06:59:24Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$xQSvotz6gqlBlPvehP45r4$JVr+JLEoQ+qFMlQAYQ69tRlMOv3FTAig0msfPUJita8=",
+    "last_login": "2023-11-09T13:29:38.057Z",
+    "is_superuser": false,
+    "username": "Sarah",
+    "first_name": "Sarah",
+    "last_name": "Khan",
+    "email": "mail.to.sarah11@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-07T06:59:48Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$lAjjZqC8bDjVRBv0BVZd4L$8gA3PSk8rXui9JAbp1184r/CcURg1MSNEUKXVrMHWjY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "antonio",
+    "first_name": "Antonio",
+    "last_name": "Melano",
+    "email": "antonio.melano@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-07T07:04:35Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$FywvuUEG7w2mCboXun9wBO$SW19GVB4M+xoOf1hSgs+04nkgAFWlBnaPiqFvNLK6jI=",
+    "last_login": "2023-11-09T14:00:15.249Z",
+    "is_superuser": false,
+    "username": "sarika",
+    "first_name": "sarika",
+    "last_name": "kumari",
+    "email": "sarika@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-09T07:01:32.945Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$l41T6R2doQOltbcxWSv7aE$249c/h0Hq8pzlgFRQB8YdhmgLK6loxmHnRQG07Oa21c=",
+    "last_login": "2023-11-09T07:04:47.502Z",
+    "is_superuser": false,
+    "username": "Tushar",
+    "first_name": "Tushar",
+    "last_name": "Singh",
+    "email": "tushar@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-09T07:04:28.147Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "03cc2a48-7891-4602-8024-3c7efd2c69ea",
+  "fields": {
+    "title": "Palestine War",
+    "slug": "palestine-war",
+    "body": "In the aftermath of Hamas’s October 7th terrorist attack, Israel’s military has been bombing the Gaza Strip, where it has killed more than three thousand Palestinians. Tensions are also mounting in the West Bank, where several dozen Palestinians have been killed since last week. While the media’s focus has, understandably, been on the more than thirteen hundred Israeli victims of the initial attack, and on Palestinian civilians now facing siege and aggression in the occupied territories, there are two million Palestinians living inside Israel itself, making up approximately twenty per cent of the country’s population.\r\n\r\nI recently spoke by phone with Amjad Iraqi—an editor at +972 Magazine and a policy analyst at the think tank Al-Shabaka who comes from a family of Palestinian citizens of Israel—to discuss how Palestinian Israelis are reckoning with this month’s events, and what the war may mean for their future. During our conversation, which has been edited for length and clarity, we also discussed the distinct forms of discrimination that Palestinian citizens of Israel face, how the relationship among different Palestinian communities has changed over time, and what Hamas’s tactics mean for any future state that recognizes equal rights for its inhabitants.",
+    "publish": "2023-10-19T08:11:42Z",
+    "created_on": "2023-10-19T08:12:52.731Z",
+    "updated_on": "2023-11-07T07:07:08.210Z",
+    "status": "DF",
+    "owner": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "0607f792-0bb8-447c-abf8-0b92a2855135",
+  "fields": {
+    "title": "The Israel-Hamas War",
+    "slug": "the-israel-hamas-war",
+    "body": "Since the start of the Israel-Hamas war, the cyber domain has played a critical role in the conflict, albeit in ways the world may not have expected. Immediately following the attacks from Hamas on October 7th, social media became a hotbed of disinformation, inaccurate self-described OSINT investigators, and public confusion. Unfortunately, leading social media platforms continue to fail at stopping the spread of disinformation regarding this war. We will continue to see it abused as a go-to method to sway public perception of events with no signs of it ending soon.\r\n\r\nHowever, outside of social media information abuse and opportunistic-hacktivism, we must not forget the likelihood of targeted attacks originating from specific, state-sponsored threat actors. Understanding and closely monitoring all-aspects of the quickly evolving conflict within the digital domain is critical as such targeted attacks will translate into real-world consequences. While we continue to collaborate privately with partners, we also seek to bolster the wider industry knowledge about where to place our efforts.\r\n\r\nThis is an updated compendium of actors for cybersecurity researchers, analysts, and network defenders to watch closely. These actors have potential for significant involvement as the war continues, including APTs across Hamas, Hezbollah, and Iran-based clusters of activity. While state-sponsored APTs should remain a strong focus, we must also carefully monitor the increasingly common use of hacktivist personas used to cloak state-sponsored operations.\r\n\r\nIn this post, we share recommended and publicly accessible information in effort to streamline the community’s understanding of relevant actors across historical reports for reference. In addition, we are sharing our perspective of public actor naming overlaps. Please note that each source of public reporting may perform attribution and actor clustering uniquely from their perspective. Nonetheless, these sources should serve as starting points for readers looking to catch up on relevant open-source intelligence for your own defense posturing and analysis needs.",
+    "publish": "2023-10-25T06:17:19Z",
+    "created_on": "2023-10-25T06:18:04.661Z",
+    "updated_on": "2023-11-07T07:02:21.634Z",
+    "status": "PB",
+    "owner": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "22322e2d-a381-46eb-b5dc-2e88063fdaa8",
+  "fields": {
+    "title": "Unfinished Success: Reach Your Full Potential",
+    "slug": "unfinished-success-reach-your-full-potential",
+    "body": "My favorite thing about this blog is the name itself. I love how it sends the message of improvement because success can never be measured. It has a different meaning for every person. The creator of the blog, Don, has done a tremendous job in bringing together the pillars of building a successful life. The blog includes content on mindfulness, positive thinking, personal development, quotes, and affirmations.  \r\n\r\nUnfinished Success guides you on any part of your life that needs hand-holding with actionable advice that works. \r\n\r\nDon helps his readers reach their full potential with the tools and resources he provides. Whether you want to improve your mindset, get ahead in your career, build better habits, or learn to live in the moment, unfinished success has got you covered.",
+    "publish": "2023-11-09T14:01:27.261Z",
+    "created_on": "2023-11-09T14:01:27.263Z",
+    "updated_on": "2023-11-09T14:01:27.263Z",
+    "status": "DF",
+    "owner": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "2bbb4c71-9227-4e47-85c5-3063069470d0",
+  "fields": {
+    "title": "Healthy Eating",
+    "slug": "healthy-eating",
+    "body": "The definition of healthy eating has changed for me a couple of times in the past few years.\r\n\r\nBy the time I was in college, healthy eating was about following nutritional guidelines and doing everything by the book. However, it meant that my view of the food on my plate had changed. I went from seeing meals I enjoyed to only seeing nutrients.\r\n\r\nSuddenly, I went from seeing traditional Costa Rican gallo pinto — or rice and beans — to seeing complex carbs and plant-based proteins.\r\n\r\nThen, when I started practicing as a nutritionist, the notion that a dietitian should look a certain way or fit into a specific body type led me to believe that healthy eating meant measuring my food to know exactly what I was consuming. I would eat whatever I wanted, as long as the nutrients I needed were accounted for.\r\n\r\nI gave my body everything it needed to be healthy, but healthy eating goes beyond the nutrients. It’s also about how it makes you feel, and with food being an essential part of culture and social events, eating should be something we enjoy.\r\n\r\nToday I have a different approach to healthy eating. I’m far more flexible with my meals, and I understand that balance is key to being nourished and happy with food.\r\n\r\nHealthy eating now means that, most of the time, I make sure to have food from all food groups on my plate without measuring anything or thinking about plant-based vs. animal-based protein or simple vs. complex carbs.\r\n\r\nIt also means that I get to enjoy a bit of everything — including sweets, fast food, and desserts — with moderation and without the need to measure or account for it.\r\n\r\nAs you can see, finding the balance that worked for me didn’t happen overnight. On the contrary, my definition of healthy eating has been changing as I’ve gone through the different stages of my life.\r\n\r\nAs long as you aim to nourish your body and listen to what it needs, you can also give healthy eating your own meaning, because healthy eating is for everyone.",
+    "publish": "2023-10-25T05:59:15Z",
+    "created_on": "2023-10-25T06:01:25.432Z",
+    "updated_on": "2023-11-07T07:03:29.018Z",
+    "status": "PB",
+    "owner": 2
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "3c89ab24-4298-4e39-929f-8470e0c12711",
+  "fields": {
+    "title": "The Blissful Mind",
+    "slug": "the-blissful-mind",
+    "body": "The Blissful Mind, as the name suggests, is to help you handle the feeling of being overwhelmed or burnout and have a calm mind. The blogger, Catherine, helps you to enjoy a more intentional and well-balanced life through her captivating content. Her blog is full of self-care, mindfulness, and productivity tips to help you become more organized with your thoughts as you overcome those self-doubts and learn to live in the moment.\r\n\r\nHer favorite resources give you a curated list of books, podcasts, journals, planners, and blogging business tools that you can easily invest in to start your self improvement journey. \r\n\r\nHer “40 One Sentence Self Care Tips” is definitely one of my favorite reads from her blog. The best tip from the blog is “Small efforts will add up over time”. This is what I practice and preach in my personal and professional life too.",
+    "publish": "2023-11-09T14:03:31.722Z",
+    "created_on": "2023-11-09T14:03:31.722Z",
+    "updated_on": "2023-11-09T14:03:31.722Z",
+    "status": "DF",
+    "owner": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "4ae385cb-6207-4dc9-8e71-93af886377c6",
+  "fields": {
+    "title": "How to get over friendship breakup",
+    "slug": "how-to-get-over-friendship-breakup",
+    "body": "Similar to HowStuffWorks, the TED-Ed blog also provides educational articles on almost all topics one can think of, from the origins of cheap chocolate to the types of rest every person needs.\r\nMost of the articles on the blog are adapted from speeches given at various TEDx Talk conferences, where speakers have to deliver their ideas in under 18 minutes.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2023-10-20T02:08:19Z",
+    "created_on": "2023-10-20T02:09:38.070Z",
+    "updated_on": "2023-11-07T07:06:38.195Z",
+    "status": "PB",
+    "owner": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "59bb9c65-b862-452b-9c0e-9c07802dc5ac",
+  "fields": {
+    "title": "How Stuff Works",
+    "slug": "how-stuff-works",
+    "body": "HowStuffWorks is an educational blog covering just about every topic under the sun in a fun and easy-to-digest way. It is part of the Stuff family of websites along with other sites such as Stuff You Should Know and Stuff to Blow Your Mind.\r\n\r\nJust as its name suggests, the blog covers how almost everything in the world works, interspersed with various fun and interesting facts. Examples of the articles include “The Coldest Place on Earth”, “Biophilic Design”, and “How to Make Elephant Toothpaste”.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2023-10-20T02:07:23Z",
+    "created_on": "2023-10-20T02:08:19.816Z",
+    "updated_on": "2023-11-07T07:06:53.789Z",
+    "status": "DF",
+    "owner": 2
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "7681b12f-d311-4fb1-ad15-fb56c9080de1",
+  "fields": {
+    "title": "Great Learning",
+    "slug": "great-learning",
+    "body": "Great Learning is an online and hybrid learning organisation that provides working professionals with top-notch, useful, and industry-relevant learning programs. Regardless of the industry or function, they operate in, these programs assist students in mastering data-driven decision-making and securing their long-term professional advancement. The most recent posts about Artificial Intelligence (AI), Python, Machine Learning, Cloud Computing, Cyber Security, NLP, Business Analysis, Data Science, Interview Questions, and how programs centered on these topics are changing industries.\r\nIt intends to start an ongoing conversation on how technology may change education and how 21st-century knowledge and skills can be integrated into the curriculum. It also wants to direct the creation of resources and services through significant community partnerships. Their audience comprises various people, including students, parents, teachers, educators, institution leaders, administrators, founders of education technology, investors in education, business leaders in education, policymakers in government, researchers, academics, and education consultants. In addition to collaborations with international events, ETR engages and educates diverse ed tech stakeholders throughout the year through several special events around the nation.",
+    "publish": "2023-10-25T05:49:32Z",
+    "created_on": "2023-10-25T05:51:56.786Z",
+    "updated_on": "2023-11-07T07:06:13.663Z",
+    "status": "PB",
+    "owner": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "7b8542eb-2c78-43af-8ad1-efc58eeb5434",
+  "fields": {
+    "title": "The Indian Education System",
+    "slug": "the-indian-education-system",
+    "body": "India is a nation with a population of around 139.34 crores and still, India’s GDP is around 6.95% today which was just 2% at the time when we got independence from Great Britain. We have grown but at a very stable rate what shall be the reason behind it? Is it the young generation, the government, the fear of not taking the risk, or the lack of entrepreneurship skills? The major reason which shall be taken into the account today is the education system of our country it is indeed great but there are some steps which can be taken to step up this journey of growing in our country.\r\nSince the very start after the-independence phase, the Indian education system has evolved a lot. At the time of getting independence from the British which was around 75 years ago the literacy rate was only 12% which has grown significantly today and become 74%. Even after having a literacy rate of 74% what can be the reason today that more than 80% of our literate students are unemployed or are in the search of a better job, and more than 70% of engineering students do another job after graduation rather than the fieldwork,  Even after having a country that is filled with rich mineral resources, employment opportunities, and the world’s 3rd largest democracy why our growth is taking too much time? why our GDP is growing at a very stable rate and currently is only 6.95%?  Has the education system in our country not good enough to make us grow our country or it is just us?\r\nThese few are the reasons and solutions for the same how we can make improvements in our education system;\r\n1) from the very first start of school and in their upbringings, children are taught to have status in society which makes them fear failure and they do not even try to follow their passion and this can be the major reason that after completing12th standard which is hsc in India 70% of people go into the field of commerce/BBA but very few of them start their business majority of them gone on to do the 9-5 job hence it creates a shortage in employment and creates unemployment.",
+    "publish": "2023-10-25T05:51:56Z",
+    "created_on": "2023-10-25T05:53:13.801Z",
+    "updated_on": "2023-11-07T07:06:00.236Z",
+    "status": "PB",
+    "owner": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "7d42c3cc-4129-4c41-be02-b15b22fc3f8f",
+  "fields": {
+    "title": "How to Remember What You Study",
+    "slug": "how-to-remember-what-you-study",
+    "body": "Cramming before a test? Want to retain more information? Use these 10 tips on how to remember what you study with minimal effort!\r\n\r\nHigh school and college gets busy and it’s a no brainer that students have 0 time to get their studies in before a big test.\r\n\r\nBefore we get into the tips, it’s important to remember why you should do this…\r\n\r\nWhy You Should Remember What You Study\r\nRemembering what you study will not only help you ace that upcoming test, but it will also help you remember that information forever.\r\n\r\nHere are a few reasons you might need to memorize what you study:\r\n\r\nYou’re cramming before a test\r\nYou want to improve your study skills\r\nYou need to retain a lot of information at once\r\nStudying feels like a ton of work\r\nYou don’t want to study multiple times\r\nA lot of the information out there that tells you how to remember your notes always states that you should study over and over again throughout the day.\r\n\r\nWhile this may be true, not every student has that kind of time on their hands. They just want to get this test over with!",
+    "publish": "2023-10-25T06:10:47Z",
+    "created_on": "2023-10-25T06:11:46.561Z",
+    "updated_on": "2023-11-07T07:02:46.559Z",
+    "status": "DF",
+    "owner": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "9203ff0c-cc57-4196-aa86-f31ccf17f598",
+  "fields": {
+    "title": "The Confident Teacher",
+    "slug": "the-confident-teacher",
+    "body": "Created by a teacher and author Alex Quigley, The Confident Teacher is a blog on education directed towards all teachers, especially English teachers.\r\n\r\nIt covers teaching tips, study strategies, and methods of teaching English vocabulary and reading comprehension.\r\nAlthough visitors can check out all images on the slider by clicking the arrows, the blog post featured on the slider also changes automatically every few seconds, taking the visitors through all the articles the slider has to offer even without being clicked.\r\n\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2023-10-20T02:09:38Z",
+    "created_on": "2023-10-20T02:11:03.839Z",
+    "updated_on": "2023-11-07T07:06:24.743Z",
+    "status": "PB",
+    "owner": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "94efd2f2-9a8e-4b8d-8805-da2771a7e79b",
+  "fields": {
+    "title": "Why Swimming is Great For Adults",
+    "slug": "why-swimming-is-great-for-adults",
+    "body": "One major benefit of swimming is that it works the whole body. Thanks to the resistance of the water, all of your muscle groups have to engage. However, unlike trying to lift weights or other workouts, it doesn’t feel like a full-blown workout thanks to the buoyancy. So your body is getting toned, but without any soreness. This is especially helpful for those who are frail. And this whole-body benefit translates into better weight management also, whether you’re looking to lose weight or just maintain your current weight. As both a cardiovascular and whole-body workout, swimming burns calories and tones muscle at the same time. These are valuable benefits from such a simple activity.\r\n\r\nAnd swimming is easy to get started. Swimming pools are everywhere, from your own house to clubs, gyms and community facilities. If you don’t know how to swim, or if it’s been a while, start slowly, just moving against the water by walking or gliding. You can build up as time goes on. And there are always swim classes and aquatic exercise classes to help you get started and get more comfortable.",
+    "publish": "2023-10-25T05:55:21Z",
+    "created_on": "2023-10-25T05:59:15.188Z",
+    "updated_on": "2023-11-07T07:03:42.283Z",
+    "status": "PB",
+    "owner": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "b899df3f-f263-497e-bb57-60a33e474260",
+  "fields": {
+    "title": "Yoga for Body",
+    "slug": "yoga-for-body",
+    "body": "Have you ever felt like your hips just won’t move the way other people’s seem to in a yoga class? Perhaps you’ve been told you have ‘tight hips’, or you experience pain in your hips and back often. When it comes to the hips, this is a popular area of discussion in the yoga world; from an energetic perspective, the hips are said to store emotions, which could explain why poses such as pigeon pose can trigger tears or strong emotions.\r\n\r\nFor many yoga practitioners, hypermobility in the hips is all too common – being able to easily put your foot behind your head isn’t common, and those who can easily slide into poses like Hanumanasana ‘full splits’ or even Cow Face Pose may have some degree of hypermobility in the joints. For the people who feel their hips are ‘too tight’ to practice yoga, now is the time to move that belief to the side, because yoga is perfect for you! There are hundreds of postures in a yoga practice which can help to build strength, improve mobility, and increase flexibility in the hips. If you’ve been searching for the best yoga poses for tight hips, we’ve got them right here – read on!",
+    "publish": "2023-10-25T06:01:25Z",
+    "created_on": "2023-10-25T06:03:36.856Z",
+    "updated_on": "2023-11-07T07:03:15.925Z",
+    "status": "PB",
+    "owner": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "d26e70f6-d983-4d1b-9901-7728c62170de",
+  "fields": {
+    "title": "How to Create Your Power Hours",
+    "slug": "how-to-create-your-power-hours",
+    "body": "What does the first hour of your day look like? A slow and gentle yoga session? A morning run? Rushing around making breakfasts and organising the kids? \r\n\r\nHow we spend the morning can have a profound effect on how we feel for the whole day. It can put us in a frazzled and frantic state of mind, or an empowered and calm one. So it pays off to create your own optimal morning ritual: your ‘power hour’ plan!\r\n\r\nWhilst you may not have a whole hour to yourself (let’s be realistic – it could be more like 10 minutes)\r\nBefore we dive into your power hour morning plan, we’ll explore the slightly geeky side of circadian rhythms and ATP production, as well as a more traditional Ayurvedic approach. Ready to power-up your mornings? Read on!\r\n\r\nDinacharya\r\nYoga’s sister science of Ayurveda has a rich and ancient history and a lot of useful advice we can use in modern life. One of the key aspects of an Ayurvedic lifestyle is rhythm. Ayurveda suggests cultivating a daily routine, known as a dinacharya. A dinacharya aligns with the energetic shifts throughout the day. It leans into the lightness of Vata in the early mornings, the steadiness of Kapha throughout the later morning hours, and the focus and fire of Pitta in the middle of the day. \r\n\r\nThese changes of energy throughout the day support different actions (see more in this article about doing yoga at different times of day); there’s an optimal time to wake, eat, work, play and sleep, and it’s all based upon circadian rhythms. \r\n\r\nCircadian Rhythms\r\nA scienc-y sounding word, circadian rhythms refers to the daily light-dark cycle, and the body clock. Throughout the entirety of human evolution, we’ve lived in alignment with the sun. We’d awaken around sunrise, and sleep not long after sunset (after a while spent sitting around the fire perhaps). \r\n\r\nThe more we reconnect to our natural rhythms and the arc of the sun, the more we support our health and wellbeing. Balancing our circadian rhythms requires that we wake up early, expose our eyes (and an appropriate amount of skin) to morning sunlight, and sleep when it’s dark.",
+    "publish": "2023-10-25T06:04:38Z",
+    "created_on": "2023-10-25T06:06:14.828Z",
+    "updated_on": "2023-11-07T07:03:01.951Z",
+    "status": "PB",
+    "owner": 2
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "db287bd4-852c-4eb4-862d-89a914af272f",
+  "fields": {
+    "title": "Hackers take side between Israel and Hamas",
+    "slug": "hackers-take-side-between-israel-and-hamas",
+    "body": "As Israel prepares for a long war against Hamas in Gaza, the conflict is also playing out on the cybersecurity field.\r\n\r\nPwC risk consulting leader Siddharth Vishwanath told Mint that the escalating conflict “is likely to lead to…full-blown cyber warfare” as multiple players get more involved. And Israel’s global role as a tech leader could be feeding into the increase in cyber attacks as well.\r\n\r\n“Israel has one of the most advanced security systems in the world,” Vishwanath said. “The attack on Israel perhaps means there may also have been a tech hack to suppress intelligence gathering, and alerts.”\r\n\r\nThe newsletter Cyberknow created a cybertracker that maps groups known to be targeting both Israel and Palestine. Its tracker currently notes 10 groups working on what it calls \"pro-Israel\" attacks and 48 groups labeled as \"anti-Israel/pro-Palestine.\" One of the groups, ThreatSec, claims to have attacked Israel in the past, but in a Telegram post, said it had recently gone after Gazan internet provider Alfanet.\r\n\r\nAlfanet reported to Wired that its headquarters and main tower had been completely destroyed by bombing but didn’t comment on ThreatSec’s cyber attack claims. Another group, the Indian Cyber Force, told Time it had shut down the websites of Hamas and the Palestinian National Bank on Sunday.\r\n\r\nHacktivists with the group AnonGhost targeted a missile alert app on phones in Israel, Cybernews reported, using the system to threaten a nuclear attack. In comments to the Washington Post, Alexander Leslie, a Recorded Future analyst, noted that such attacks are dangerous and disruptive, especially during war.\r\n\r\n“There are obvious security and safety risks for false missile alerts at a time like this,” Leslie told the paper. “It is a serious escalation in targeting and intent, regardless of its impact.”\r\n\r\nA Russia-affiliated hacking group called Killnet said Sunday that they would target the Israeli government, angry over the current round of violence as well as the country’s support for Ukraine. But as Truesec threat intelligence expert Mattias Wåhlén told Bloomberg, there might be a pecuniary interest involved as well.\r\n\r\n“Their actions look more like opportunistic strikes,” Wåhlén said. “The conflict creates headlines which attract groups like Killnet that try to monetize DDoS attacks.”",
+    "publish": "2023-10-25T06:14:19Z",
+    "created_on": "2023-10-25T06:15:25.513Z",
+    "updated_on": "2023-11-07T07:02:33.625Z",
+    "status": "PB",
+    "owner": 2
+  }
+},
+{
+  "model": "blog.post",
+  "pk": "f0fa8e0b-23fd-45c3-b9f3-4bd55ad2e80a",
+  "fields": {
+    "title": "The Knowledge Review",
+    "slug": "the-knowledge-review",
+    "body": "The Knowledge Review is a global education journal that provides news, blogs, articles, and courses from the top institutions to colleges, students, instructors, and parents. From the perspectives of a student, educator, and university, The Knowledge Review serves as a platform for providing a comprehensive overview of the enormous education industry. The Knowledge Review is a platform that was created especially to act as a link between students, instructors, and institutions. It is one of the top international education and knowledge provider publications. \r\nAfter a brief conversation about the present situation from the perspectives of a student, an educator, and a university, their talented team of writers creates a masterful essay to give voice to the educational difficulties and their remedies. On top of our lists will be the academics from various areas who hold the highest positions in institutions and who are willing to offer their expertise and experiences.\r\nIf you have completed or are on the verge of completing your higher education and don’t know what to do or how to proceed, you must read Study Guide India. Whether you want to work as a graphic designer or an expert in email marketing, you can read the blog’s posts to learn a lot of knowledge that will guide you in the correct direction.",
+    "publish": "2023-10-25T05:53:13Z",
+    "created_on": "2023-10-25T05:55:21.248Z",
+    "updated_on": "2023-11-07T07:04:03.246Z",
+    "status": "PB",
+    "owner": 2
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "body": "I have read this post and author have really explain the war in details with proper proof.",
+    "created_on": "2023-11-02T06:45:42.570Z",
+    "updated_on": "2023-11-02T06:45:42.570Z",
+    "active": true,
+    "name": "Sadique Naikwadi",
+    "email": "sadique.sn@gmail.com",
+    "post": "0607f792-0bb8-447c-abf8-0b92a2855135"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "body": "Author have explain the war situation in details.",
+    "created_on": "2023-11-02T06:51:57.366Z",
+    "updated_on": "2023-11-02T06:51:57.366Z",
+    "active": true,
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "post": "0607f792-0bb8-447c-abf8-0b92a2855135"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "body": "I really like the article.",
+    "created_on": "2023-11-02T07:08:33.038Z",
+    "updated_on": "2023-11-02T07:08:33.038Z",
+    "active": true,
+    "name": "Sarah",
+    "email": "sarah570@gmail.com",
+    "post": "db287bd4-852c-4eb4-862d-89a914af272f"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]

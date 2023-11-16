@@ -7,6 +7,7 @@ from django.conf import settings
 from django.db import IntegrityError
 from django.contrib.auth import authenticate, login, logout
 from .forms import AddPost
+from django.contrib.postgres.search import SearchVector, SearchQuery
 
 # Create your views here.
 
@@ -146,6 +147,15 @@ def create_user(request):
     context = {'form': form}
     return render(request, 'blog/create_user.html', context)
 
+
+def do_search(request):
+    query = request.GET.get('query', '')
+    search_vector = SearchVector('title', 'body')
+    search_query = SearchQuery(query)
+    results = Post.objects.annotate(search=search_vector).filter(search=search_query)
+    context = {'results': results}
+    print(results)
+    return render(request, 'blog/post-list.html', context)
 
 
 
