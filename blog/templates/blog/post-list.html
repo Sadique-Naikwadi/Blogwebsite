@@ -6,6 +6,30 @@
     <div class="row">
         <div class="col-md-8">
             <h2 class="pb-4">Featured Blog Posts</h2>
+            <!-- {% if messages %}
+                
+                    {% for message in messages %}
+
+                    <div class="alert alert-danger">
+                        {{ message }}
+                    </div>
+                    
+                    {% endfor %}
+                
+            {% endif %} -->
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-dismissible fade show alert-danger text-danger fw-bold" role="alert">
+                        {{ message }}
+                        <form action="{% url 'blog:post-list' %}">
+                            <button type="submit" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </form>
+                        
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            
             <!-- Blog Post 1 -->
             {% if results %}
                 {% for post in results %}
@@ -36,21 +60,23 @@
             {% endif %}
             
         </div>
-        <div class="col-md-4">
-            <!-- Sidebar -->
-            <h2 class="pb-4">Upcoming Posts</h2>
-            <!-- Upcoming Post 1 -->
-            {% for post in upcoming %}
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">{{ post.title }}</h5>
-                    <p class="card-text">{{ post.created_on }}</p>
+        {% if results == null %}
+            <div class="col-md-4">
+                <!-- Sidebar -->
+                <h2 class="pb-4">Upcoming Posts</h2>
+                <!-- Upcoming Post 1 -->
+                {% for post in upcoming %}
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ post.title }}</h5>
+                        <p class="card-text">{{ post.created_on }}</p>
+                    </div>
                 </div>
+                {% endfor %}
+                <p><a href="{% url 'blog:post-feed' %}">Subscribe to my RSS Feed</a></p>
+                
             </div>
-            {% endfor %}
-            <p><a href="{% url 'blog:post-feed' %}">Subscribe to my RSS Feed</a></p>
-            
-        </div>
+        {% endif %}
     </div>
     <!-- {% for post in posts %}
 

@@ -8,6 +8,10 @@ from django.db import IntegrityError
 from django.contrib.auth import authenticate, login, logout
 from .forms import AddPost
 from django.contrib.postgres.search import SearchVector, SearchQuery
+from django.contrib.auth.decorators import login_required
+
+from django.contrib import messages
+
 
 # Create your views here.
 
@@ -40,6 +44,8 @@ def post_details(request, slug):
     context = {'post': post, 'form': form, 'comments': comments}
     return render(request, 'blog/post-details.html', context)
 
+
+@login_required(login_url='blog:user-login')
 def view_myblog(request):
     owner = request.user
     posts = Post.objects.filter(owner=owner)
@@ -153,8 +159,12 @@ def do_search(request):
     search_vector = SearchVector('title', 'body')
     search_query = SearchQuery(query)
     results = Post.objects.annotate(search=search_vector).filter(search=search_query)
-    context = {'results': results}
     print(results)
+    if not results:
+        messages.error(request, 'There is no data in the database. Please Try again...')
+    
+    context = {'results': results}
+    
     return render(request, 'blog/post-list.html', context)
 
 
