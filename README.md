@@ -10,6 +10,7 @@ This is a simple blog web application built with Django. The application allows 
 - Sitemap generation
 - RSS feed for blog posts
 - Responsive design
+- Search a particular blog post
 
 ## Requirements
 
